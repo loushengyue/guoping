@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1200px;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+}
+header {
+  border-bottom: 2px solid #555150;
+}
+header .top {
+  background-color: #f5f5f5;
+  height: 35px;
+}
+header .top .left {
+  float: left;
+}
+header .top .right {
+  float: right;
+}
+header .top .right .item {
+  float: left;
+  padding: 0 20px;
+}
+header .top .right .item:last-child {
+  padding-right: 0;
+}
+header .middle {
+  height: 190px;
+}
+header .middle .logo {
+  float: left;
+  margin-top: 20px;
+}
+header .middle .right {
+  width: 868px;
+  float: right;
+}
+header .middle .right .search-box {
+  overflow: hidden;
+}
+header .middle .right .search-box .search {
+  float: left;
+  width: 570px;
+}
+header .middle .right .search-box div {
+  float: left;
+}
+header .middle .right .hot-search {
+  overflow: hidden;
+}
+header .middle .right .hot-search dt {
+  float: left;
+}
+header .middle .right .hot-search dd {
+  float: left;
+}
+header .nav-bar {
+  height: 34px;
+  overflow: visible;
+}
+header .nav-bar .goods-list {
+  width: 200px;
+  float: left;
+  position: relative;
+}
+header .nav-bar .goods-list h4 {
+  height: 34px;
+  line-height: 34px;
+  background-color: #ff6634;
+  color: #fff;
+}
+header .nav-bar .goods-list .list {
+  z-index: 10;
+  position: absolute;
+  top: 34px;
+  left: 0;
+  width: 100%;
+}
+header .nav-bar .goods-list .list dl dd {
+  display: inline;
+}
+header .nav-bar .nav {
+  float: left;
+}
+header .nav-bar .nav li {
+  float: left;
+}
+.banner img {
+  width: 100%;
+}
